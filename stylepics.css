@@ -11,7 +11,6 @@
     height: 100vh;
 }
 
-
 .logo{
     width: 240px;
     position: absolute;
@@ -25,10 +24,6 @@
     padding-top: 180px;
 }
 
-.banner-tracking {
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
 .banner-text h1 {
     font-size: 80px;
     font-family: 'Kaushan Script', cursive;
@@ -95,7 +90,7 @@ nav ul li {
 
 nav ul li a{
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: #fff;
 }
 
 nav ul li a:hover {
@@ -132,45 +127,58 @@ nav ul li a:hover {
 
 /*--feature--*/
 
-
-.title-text {
-    text-align: center;
-    padding-bottom: 10px;
-}
-
-
-.title-text h1 {
-    font-size: 50px ;
-}
-
 #feature {
     width: 100%;
     padding: 70px 0;
-    background: linear-gradient(rgba(0, 0, 0, 0.041), #009688);
-    background-size: cover;
-    background-position: center;
-    height: auto;
+
 }
 
-.feature-box {
-    width: 80%;
+.title-text {
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+.title-text p {
     margin: auto;
+    font-size: 50px;
+    color: #009688;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+}
+
+
+
+.title-text h1 {
+    font-size: 30px ;
+    padding-top: 30px;
+}
+
+
+#service {
+    width: 100%;
+    padding: 70px 0;
+    background: #efefef;
+}
+
+.service-box{
+    width: 90%;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
-    text-align: center;
-}
-
-.features {
-    flex-basis: 100%;
-}
-
-.features-img {
-    flex-basis: 100%;
+    justify-content: space-around;
     margin: auto;
 }
 
-.features-img iframe {
+.single-service {
+    flex-basis: 32.33%;
+    text-align: center;
+    border-radius: 7px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.single-service img {
     width: 100%;
-    border-radius: 10px;
+    border-radius: 7px;
 }
